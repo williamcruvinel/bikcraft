@@ -5,6 +5,11 @@
 @import "util/cores.css";
 @import "./util/componentes.css";
 
+/*header*/
 @import "./global/header.css";
+
 /*home*/
 @import "./home/intro.css";
+
+/*Bicicletas*/
+@import "./bicicletas/bicicleta-lista.css"
