@@ -5,18 +5,19 @@
 
 .biscilcetas-lista h2{
  margin-bottom: 40px;
- box-sizing: border-box;
- max-width: 1200px;
- padding: 0 20px;
- margin:  0 auto;
 }
 
 .biscilcetas-lista ul{
   display: flex;
   gap: 40px;
-  padding: 0 20px;
+  padding: 0 20px 20px 20px;
   max-width: 1400px;
   margin: 0 auto;
+  overflow-x: auto;
+}
+
+.biscilcetas-lista li{
+  min-width: 280px;
 }
 
 .biscilcetas-lista a{
@@ -40,8 +41,22 @@
   width: 12px;
   height: 8px;
   margin-right: 8px;
+  transition: width 0.2s;
+}
+
+.biscilcetas-lista a:hover h3::before{
+  width: 24px;
 }
 
 .biscilcetas-lista li span{
   padding-left: 20px;
+}
+
+@media(width < 800px){
+  .biscilcetas-lista{
+    padding-bottom: 60px;
+  }
+  .biscilcetas-lista ul{
+    gap: 20px;
+  }
 }
