@@ -2,11 +2,12 @@
 
 /*util*/
 @import "./util/tipografia.css";
-@import "util/cores.css";
+@import "./util/cores.css";
 @import "./util/componentes.css";
 
-/*header*/
+/*header & footer*/
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /*home*/
 @import "./home/intro.css";
@@ -14,8 +15,8 @@
 @import "home/parceiros.css";
 @import "home/depoimento.css";
 
-/*Bicicletas*/
+/*bicicletas*/
 @import "./bicicletas/bicicleta-lista.css";
 
-/*Seguros*/
+/*seguros*/
 @import "./seguros/seguros.css";
