@@ -8,13 +8,13 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu{
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
   gap: 40px;
 }
 
