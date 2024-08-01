@@ -37,12 +37,12 @@
     <main>
       <div class="titulo-bg">
         <div class="titulo container">
-          <p class="font-2-l-b cor-5">COTAÇÕES NO SEU EMAIL</p>
-          <h1 class="font-1-xxl cor-0">solicite um orçamento<span class="cor-p1">.</span></h1>
+          <p class="font-2-l-b cor-5 fadeInLeft" data-anime="200">COTAÇÕES NO SEU EMAIL</p>
+          <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="400">solicite um orçamento<span class="cor-p1">.</span></h1>
         </div>
       </div>
 
-      <form class="orcamento container" action="./orcamento.html">
+      <form class="orcamento container fadeInDown" data-anime="600" action="./orcamento.html">
         <div class="orcamento-produto">
           <h2 class="font-1-xs cor-5">Bikcraft ou Seguro?</h2>
 
@@ -64,7 +64,7 @@
                 <li><img src="./img/icones/velocidade.svg" alt=""> 50 km/h</li>
                 <li><img src="./img/icones/rastreador.svg" alt=""> Rastreador</li>
               </ul>
-              <img src="./img/bicicletas/nimbus.jpg" alt="Bicicleta preta">
+              <img src="./img/bicicletas/nimbus.jpg" alt="Bicicleta preta" width="800" height="486">
             </div>
 
             <input type="radio" name="produto" value="magic" id="magic">
@@ -76,7 +76,7 @@
                 <li><img src="./img/icones/velocidade.svg" alt=""> 45 km/h</li>
                 <li><img src="./img/icones/rastreador.svg" alt=""> Rastreador</li>
               </ul>
-              <img src="./img/bicicletas/magic.jpg" alt="Bicicleta preta">
+              <img src="./img/bicicletas/magic.jpg" alt="Bicicleta preta" width="800" height="486">
             </div>
 
             <input type="radio" name="produto" value="nebula" id="nebula">
@@ -88,7 +88,7 @@
                 <li><img src="./img/icones/velocidade.svg" alt=""> 40 km/h</li>
                 <li><img src="./img/icones/rastreador.svg" alt=""> Rastreador</li>
               </ul>
-              <img src="./img/bicicletas/nebula.jpg" alt="Bicicleta branca">
+              <img src="./img/bicicletas/nebula.jpg" alt="Bicicleta branca" width="800" height="486">
             </div>
           </div>
 
@@ -185,6 +185,8 @@
         <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
       </div>
     </footer>
+
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
   </body>
 
