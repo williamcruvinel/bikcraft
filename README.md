@@ -44,10 +44,8 @@ Para visualizar o projeto localmente:
 - **Email**: seu-email@exemplo.com
 - **LinkedIn**: [William Cruvinel](https://www.linkedin.com/in/william-cruvinel-398ab981/)
 
-## 🔗 Links do Curso
+## 🔗 Link do Curso
 
 - [Origamid - Curso de HTML e CSS](https://www.origamid.com/)
 
 ---
-
-Com esses ajustes, o `README.md` está mais estruturado e padronizado!
