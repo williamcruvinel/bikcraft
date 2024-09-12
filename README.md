@@ -28,7 +28,7 @@ Para visualizar o projeto localmente:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/williamcruvinel/projeto-bikcraft.git
+   git clone https://github.com/williamcruvinel/bikcraft.git
    ```
 
 2. Navegue até o diretório do projeto:
